@@ -30,11 +30,11 @@ Each color is defined from a value of 0 to 255
 void Set_Brightness(int brightness);
 ```
    It is used to adjust the light of all pixels and it receives a value from 0 to 45
+   
 ```
 void WS2812_Send (void);
 ```
-    After setting the colors of each pixel, this function sends the data to the LEDs
-
+After setting the colors of each pixel, this function sends the data to the LEDs
 
 And enjoy your Neo Pixels :))
 
